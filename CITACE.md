@@ -1,32 +1,42 @@
 # Citace, zdroje a použití AI
 
-## Základní informace
+## 1. Identifikace projektu
 
-- **Název projektu:** Origins – Zroď se z písku
-- **Typ práce:** fanouškovský vizuální koncept webu
-- **Autor/ka:** *doplň jméno*
+- **Název:** Origins – Zroď se z písku
+- **Typ práce:** fanouškovský vizuální koncept jednostránkového webu
+- **Autor/ka:** *doplň jméno a příjmení*
+- **Předmět/třída:** *doplň podle zadání*
 - **Datum dokončení:** 21. 10. 2026
-- **Technologie:** HTML, CSS a JavaScript
-- **Poznámka:** Projekt není oficiální web společnosti Ubisoft. Assassin's Creed,
-  Assassin's Creed Origins a související názvy jsou duševním vlastnictvím
-  společnosti Ubisoft Entertainment.
+- **Technologie:** HTML5, CSS3, JavaScript
+- **Soubory:** `index.html`, `styles.css`, `script.js`, `images/`
+- **Oficiální status:** Neoficiální nekomerční fanouškovský projekt.
 
-## Přiznání použití umělé inteligence
+Assassin's Creed, Assassin's Creed Origins a související názvy jsou duševním
+vlastnictvím společnosti Ubisoft Entertainment. Tento web není oficiální
+stránka Ubisoftu a není určen k prodeji ani k vydávání za oficiální materiál.
 
-Při tvorbě projektu byl použit AI asistent v prostředí VS Code. AI pomohla
-zejména s návrhem struktury stránky, formulací textů, návrhem vizuálního stylu,
-vytvořením a úpravami kódu a kontrolou přístupnosti. Výsledný kód, texty,
-výběr obsahu, kontrola faktů a finální úpravy byly provedeny a zkontrolovány
-autorem/ku projektu.
+## 2. Přiznání použití AI
 
-AI není uvedena jako autor/ka projektu. Je uvedena jako použitý nástroj.
+Při tvorbě projektu byl použit AI asistent v prostředí VS Code. AI byla použita
+jako nástroj pro brainstorming, návrh struktury, návrh textů, návrh vizuálního
+stylu, tvorbu a úpravy HTML/CSS/JavaScriptu, kontrolu přístupnosti,
+responzivity a validace.
 
-## Použité prompty
+Odpovědnost za výsledný projekt nese autor/ka. Autor/ka vybral/a výsledné
+řešení, kontroloval/a obsah, upravil/a texty a kód, rozhodl/a o vzhledu,
+ověřil/a odkazy a provedl/a závěrečnou kontrolu. AI není uvedena jako autor/ka,
+ale jako použitý nástroj.
 
-Níže jsou uvedeny prompty použité při návrhu projektu. Prompty jsou zapsané
-v podobě, která popisuje skutečný záměr jednotlivých částí práce.
+**Použitý nástroj:** AI asistent v prostředí VS Code
+**Datum použití:** 21. 10. 2026
+**Účel použití:** návrh, generování, úpravy a kontrola školního projektu
 
-### 1. Návrh webu a struktury
+## 3. Prompty použité při práci
+
+Následující seznam zachycuje prompty použité pro vytvoření a úpravy projektu.
+Prompty jsou uvedené v češtině a seskupené podle účelu.
+
+### 3.1 Zadání a struktura webu
 
 > Navrhni strukturu jednostránkového fanouškovského webu v češtině na téma
 > Assassin's Creed Origins. Web má působit filmově, prémiově a inspirovat se
@@ -35,72 +45,117 @@ v podobě, která popisuje skutečný záměr jednotlivých částí práce.
 > přehlednou navigaci a texty vhodné pro školní webový projekt. Nevydávej web
 > za oficiální stránku Ubisoftu.
 
-### 2. Vizuální styl
+### 3.2 Vizuální styl a barevný systém
 
 > Navrhni vizuální systém pro web Assassin's Creed Origins: tmavé inkoustové
 > pozadí, pískové a zlaté akcenty, krémový text, motivy pouště, chrámů,
 > hieroglyfů a papyru. Doporuč typografickou dvojici výrazného historického
-> nadpisového fontu a dobře čitelného fontu pro běžný text. Zachovej vysoký
+> fontu pro nadpisy a dobře čitelného fontu pro běžný text. Zachovej vysoký
 > kontrast, výraznou typografii a responzivní chování na mobilu.
 
-### 3. Textový obsah
+### 3.3 Texty pro úvodní část
 
 > Napiš krátké originální marketingové texty v češtině pro fanouškovský web
 > Assassin's Creed Origins. Zaměř se na Bayeka ze Siwy, jeho roli medžaje,
 > starověký Egypt a motiv zrodu bratrstva. Texty mají být atmosférické, ale
-> nesmí obsahovat dlouhé převzaté pasáže z oficiálních materiálů. Připrav
-> také krátké popisy pro Siwu, Memphis a Gízu a tři herní cesty s názvy
-> Průzkumník, Lovec a Medžaj.
+> nesmí obsahovat dlouhé převzaté pasáže z oficiálních materiálů.
 
-### 4. HTML, CSS a JavaScript
+### 3.4 Texty pro lokace
+
+> Napiš delší originální popisy tří lokací ze hry Assassin's Creed Origins:
+> Siwa, Memphis a Gíza. Každý popis má mít několik vět, být atmosférický,
+> navazovat na Bayekův příběh a být vhodný pro detailní sekci webu. Siwa
+> představ jako oázu a domov medžaje, Memphis jako město chrámů a mocenských
+> her a Gízu jako krajinu pyramid a skrytých tajemství. Nepoužívej dlouhé
+> doslovné citace z oficiálních materiálů.
+
+### 3.5 Doplňkové texty a navigace
+
+> Navrhni tři krátké herní cesty pro závěr stránky s názvy Průzkumník, Lovec
+> a Medžaj. Ke každé napiš stručný popis ve stejném filmovém stylu.
+
+> Vytvoř horní navigaci s odkazy Příběh, Svět a Cesta medžaje. Navigace má být
+> viditelná samostatně, bez rozbalovacího tlačítka, má zůstat přichycená při
+> scrollování a musí fungovat i na mobilu.
+
+### 3.6 HTML, CSS a JavaScript
 
 > Vytvoř přístupnou jednostránkovou webovou prezentaci podle tohoto návrhu.
 > Použij sémantické elementy header, nav, main, section, article a footer.
-> Přidej alt texty k obrázkům, aria-label tam, kde je potřeba, klávesové
-> ovládání karet lokací, responzivní rozložení a plynulé posouvání na detail
-> lokace. Nepoužívej framework ani externí JavaScriptovou knihovnu.
+> Přidej smysluplné alt texty, aria atributy pouze tam, kde jsou povolené,
+> klávesové ovládání karet lokací, responzivní rozložení a plynulé posouvání
+> na detail lokace. Nepoužívej framework ani externí JavaScriptovou knihovnu.
 
-### 5. Kontrola a vylepšení
+> Přesuň veškerý JavaScript z HTML do samostatného souboru script.js. Zachovej
+> kliknutí na kartu lokace, ovládání Enterem a mezerníkem a plynulé posouvání
+> na odpovídající detail.
+
+### 3.7 Patička, validace a dokumentace
+
+> Navrhni kompaktní patičku s logem projektu a třemi malými ikonovými odkazy:
+> HTML validator, CSS validator a AI citace. Patička má být responzivní,
+> vizuálně sladěná se stránkou a nemá zabírat zbytečně mnoho místa.
+
+> Přidej do patičky odkazy na W3C Nu HTML Checker, W3C CSS Validator a soubor
+> CITACE.md. Odkazy na externí validátory otevři bezpečně v novém panelu.
+
+> Zkontroluj HTML podle pravidel W3C. Oprav chyby přístupnosti, včetně použití
+> aria-label pouze na elementech, které jej podle HTML standardu mohou mít.
+
+### 3.8 Hieroglyfový pohyblivý panel
+
+> Vytvoř dekorativní pohyblivý pás egyptských hieroglyfů jako pozadí horního
+> menu. Odstraň textový tooltip a nepoužívej skupinu znaků
+> 𓋹𓂀𓅃𓆓. Panel musí být při načtení vyplněný přes celou šířku, nesmí při
+> animaci zobrazit prázdné místo a musí plynule jezdit pořád dokola. Použij
+> několik stejných kopií motivu a animaci o polovinu celkové šířky pásu.
+
+> Nastav hieroglyfový panel jako jemně průsvitné pozadí pod navigací. Menu
+> musí zůstat čitelné, hieroglyfy lehce rozmazané, ale stále viditelné,
+> a panel nesmí blokovat klikání na odkazy.
+
+### 3.9 Responzivní úpravy úvodu
+
+> Uprav hero sekci pro mobilní obrazovku tak, aby byl celý nadpis
+> „ZROĎ SE Z PÍSKU“, popis i tlačítka viditelná bez ořezu. Zarovnej textový
+> blok výš k hlavnímu obrázku, zmenši nadpis podle šířky displeje a zabraň
+> vodorovnému přetečení.
+
+> Přesuň text SCROLL TO EXPLORE vodorovně pod tlačítko Objevit příběh.
+> Přidej jemnou fade/pulse animaci, která respektuje prefers-reduced-motion.
+
+### 3.10 Kontrola a opravy
 
 > Zkontroluj HTML, CSS a JavaScript tohoto školního webu. Najdi pouze chyby
-> nebo problémy, které mají přímý dopad na funkčnost, přístupnost,
-> responzivitu nebo čitelnost. Navrhni malé a konkrétní opravy bez změny
-> vizuálního konceptu a bez přidávání zbytečných knihoven.
+> nebo problémy s funkčností, přístupností, responzivitou a čitelností.
+> Navrhni malé konkrétní opravy bez změny vizuálního konceptu.
 
-### 6. Prompt k obrázkům
+> Zkontroluj, že jsou všechny HTML elementy správně uzavřené, odkazy funkční,
+> CSS bloky vyvážené, externí script.js správně připojený a v HTML nezůstal
+> vložený JavaScript.
 
-> Vytvoř širokoúhlou filmovou ilustraci starověkého Egypta inspirovanou
-> dobrodružnou hrou: poušť, oáza nebo chrám, teplé zlaté světlo, tyrkysové
-> stíny, realistická digitální malba, vysoká úroveň detailu, bez textu,
-> bez loga a bez uživatelského rozhraní. Výsledný obrázek použij pouze jako
-> fanouškovský vizuální doplněk, ne jako oficiální propagační materiál.
+## 4. Obrázky a jejich původ
 
-> Vytvoř tři tematicky odlišné ilustrace starověkého Egypta pro karty lokací:
-> Siwa jako pouštní oáza, Memphis jako chrámové město a Gíza jako krajina
-> s pyramidami. Zachovej jednotnou barevnou paletu písku, zlata a tmavé
-> modrozelené, kompozici vhodnou pro ořez do karty a žádný text v obraze.
+Na stránce jsou použity tyto lokální soubory:
 
-> Vytvoř jednoduchý dekorativní motiv egyptských hieroglyfů pro tmavý webový
-> pás. Motiv má být pouze dekorativní, opakovatelný, bez moderních symbolů,
-> bez textu a bez loga.
+| Soubor | Použití | Skutečný původ / nástroj | Licence |
+|---|---|---|---|
+| `images/intro.png` | úvodní hero obrázek | *doplň skutečný nástroj nebo URL* | *doplň licenci* |
+| `images/siwa.png` | karta a detail Siwy | *doplň skutečný nástroj nebo URL* | *doplň licenci* |
+| `images/memphis.png` | karta a detail Memphisu | *doplň skutečný nástroj nebo URL* | *doplň licenci* |
+| `images/Gíza.png` | karta a detail Gízy | *doplň skutečný nástroj nebo URL* | *doplň licenci* |
+| `images/logo.png` | logo v navigaci a patičce | *doplň skutečný nástroj nebo URL* | *doplň licenci* |
+| `images/hieroglyphs.png` | dekorativní motiv | *doplň skutečný nástroj nebo URL* | *doplň licenci* |
 
-**Poznámka k obrázkům:** U každého obrázku je potřeba uvést skutečný způsob
-vzniku. Pokud byly obrázky vytvořeny generátorem AI, doplň do odevzdávané
-verze název konkrétního nástroje a datum vytvoření. Pokud pocházejí z jiného
-zdroje, nahraď tuto poznámku přesnou licencí a URL zdroje. Lokální názvy
-souborů použité na stránce jsou:
+Pokud byl obrázek vytvořen pomocí generátoru AI, doplň název konkrétního
+nástroje, datum vytvoření a použitý prompt. Pokud byl stažen z internetu,
+doplň autora, přesnou URL, datum přístupu a licenci. Neuváděj jako zdroj
+neověřený nebo domyšlený údaj.
 
-- `images/intro.png`
-- `images/siwa.png`
-- `images/memphis.png`
-- `images/Gíza.png`
-- `images/logo.png`
-- `images/hieroglyphs.png`
+## 5. Informační zdroje
 
-## Informační zdroje
-
-Zdroje byly použity pro ověření názvu hry, období děje, postavy Bayeka,
-pojmu medžaj a prostředí Egypta. Atmosférické texty na webu jsou vlastní
+Zdroje slouží k ověření názvu hry, období děje, postavy Bayeka, pojmu medžaj
+a prostředí starověkého Egypta. Atmosférické texty na stránce jsou vlastní
 fanouškovské formulace.
 
 1. Ubisoft. **Assassin's Creed Origins – Official Website.** Dostupné z:
@@ -113,27 +168,40 @@ fanouškovské formulace.
    <https://www.britannica.com/place/ancient-Egypt>
    [cit. 21. 10. 2026].
 
-## Použité externí zdroje a licence
+## 6. Externí zdroje, fonty a licence
 
-- **Fonty:** Cinzel a Manrope, Google Fonts, licence SIL Open Font License.
+- **Cinzel a Manrope:** Google Fonts, licence SIL Open Font License.
   <https://fonts.google.com/>
-- **Ikony a dekorace:** Hieroglyfy použité v projektu jsou dekorativní znaky
-  Unicode. Nejde o převzatý textový obsah.
-- **Značka:** Assassin's Creed a Assassin's Creed Origins patří společnosti
-  Ubisoft. Projekt je nekomerční fanouškovská práce.
-- **Obrázky:** Doplň skutečný zdroj nebo AI nástroj u každého souboru podle
-  jeho původu. Obrázky nepoužívej mimo školní/nekomerční prezentaci bez
-  ověření licence.
+- **Hieroglyfy:** dekorativní znaky Unicode použité jako vizuální motiv.
+- **Ikony validátorů:** jednoduché textové symboly vytvořené v HTML, bez
+  převzaté grafiky.
+- **Assassin's Creed:** ochranné známky a související duševní vlastnictví
+  společnosti Ubisoft Entertainment.
+- **Kód projektu:** HTML, CSS a JavaScript vytvořené pro tento školní projekt.
 
-## Co upravil autor/ka
+## 7. Co vytvořil/a a upravil/a autor/ka
 
 Autor/ka projektu:
 
-- vybral/a výsledný návrh a obsah webu,
-- upravil/a vygenerované texty do češtiny,
+- vybral/a finální návrh a obsah webu,
+- upravil/a AI návrhy do výsledné češtiny,
 - vytvořil/a a propojil/a soubory HTML, CSS a JavaScript,
-- vybral/a obrázky, názvy souborů, alt texty a pořadí sekcí,
-- otestoval/a navigaci, odkazy na lokace a zobrazení na menší obrazovce,
-- ověřil/a uvedené zdroje a doplnil/a jejich citace.
+- navrhl/a layout, barevnou paletu, typografii a animace,
+- vybral/a obrázky, názvy souborů a pořadí sekcí,
+- doplnil/a alt texty, navigaci a klávesové ovládání,
+- otestoval/a odkazy, karty lokací a responzivní rozložení,
+- ověřil/a zdroje a doplnil/a citace,
+- opravil/a validační chybu u atributu `aria-label` v patičce.
 
-Datum poslední kontroly zdrojů: **21. 10. 2026**.
+## 8. Kontrolní seznam před odevzdáním
+
+- [ ] Doplněno jméno, třída a předmět.
+- [ ] U každého obrázku doplněn skutečný původ, nástroj nebo URL.
+- [ ] U každého obrázku doplněna licence.
+- [ ] Ověřena stránka ve W3C Nu HTML Checker.
+- [ ] Ověřeny styly ve W3C CSS Validatoru.
+- [ ] Otestováno zobrazení na desktopu i mobilu.
+- [ ] Otestována navigace, odkazy na lokace a klávesové ovládání.
+- [ ] Ověřeno, že projekt není prezentován jako oficiální web Ubisoftu.
+
+**Datum poslední kontroly:** 21. 10. 2026
