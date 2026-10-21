@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" shape-rendering="crispEdges">
+  <!-- Zlatý stín v barvě egyptského zlata -->
+  <g fill="#e6b75c" transform="translate(2, 2)">
+    <rect x="8" y="6" width="4" height="20"/>
+    <rect x="8" y="6" width="12" height="4"/>
+    <rect x="8" y="22" width="12" height="4"/>
+    <rect x="20" y="10" width="4" height="12"/>
+    <rect x="16" y="10" width="4" height="4"/>
+    <rect x="16" y="18" width="4" height="4"/>
+  </g>
+
+  <!-- Tmavý znak v barvě inkoustu -->
+  <g fill="#111b22">
+    <rect x="8" y="6" width="4" height="20"/>
+    <rect x="8" y="6" width="12" height="4"/>
+    <rect x="8" y="22" width="12" height="4"/>
+    <rect x="20" y="10" width="4" height="12"/>
+    <rect x="16" y="10" width="4" height="4"/>
+    <rect x="16" y="18" width="4" height="4"/>
+  </g>
+</svg>
