@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
     content="Fanouškovský vizuální koncept pro Assassin's Creed Origins — cesta Bayeka po starověkém Egyptě.">
+  <meta name="theme-color" content="#111b22">
+  <link rel="canonical" href="https://daniel-gorcica.github.io/origins/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Origins — Zroď se z písku">
+  <meta property="og:description"
+    content="Fanouškovský vizuální koncept pro Assassin's Creed Origins — cesta Bayeka po starověkém Egyptě.">
+  <meta property="og:image" content="https://daniel-gorcica.github.io/origins/images/intro.png">
+  <meta property="og:url" content="https://daniel-gorcica.github.io/origins/">
+  <meta name="twitter:card" content="summary_large_image">
   <title>Origins — Zroď se z písku</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,10 +26,11 @@
 </head>
 
 <body>
+  <a class="skip-link" href="#top">Přejít na hlavní obsah</a>
   <div class="site-shell">
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Origins, úvod">
-        <img class="brand-mark" src="images/logo.png" alt="">
+        <img class="brand-mark" src="images/logo.png" alt="" width="1232" height="1277">
         <span class="brand-copy">
           <strong>ASSASSIN'S CREED</strong>
           <small>ORIGINS</small>
@@ -51,7 +61,8 @@
         </div>
         <div class="hero-art">
           <img class="hero-image" src="images/intro.png"
-            alt="Egyptská krajina s pyramidami, vodou a chrámem při západu slunce">
+            alt="Egyptská krajina s pyramidami, vodou a chrámem při západu slunce" fetchpriority="high"
+            decoding="async" width="1675" height="939">
           <div class="hero-caption"><span>01</span><span class="caption-line"></span><span>SIWA / MEMPHIS</span></div>
         </div>
       </section>
@@ -105,7 +116,8 @@
         </div>
         <div class="location-grid">
           <article class="location-card card-siwa" data-target="siwa" tabindex="0">
-            <img class="location-image" src="images/siwa.png" alt="Pouštní krajina v Siwě">
+            <img class="location-image" src="images/siwa.png" alt="Pouštní krajina v Siwě" loading="lazy"
+              decoding="async" width="1672" height="941">
             <div class="card-number">01</div>
             <div class="card-info">
               <h3>Siwa</h3>
@@ -114,7 +126,8 @@
             <a href="#siwa" aria-label="Více o Siwě">↗</a>
           </article>
           <article class="location-card card-memphis" data-target="memphis" tabindex="0">
-            <img class="location-image" src="images/memphis.png" alt="Starověký Memphis v Egyptě">
+            <img class="location-image" src="images/memphis.png" alt="Starověký Memphis v Egyptě" loading="lazy"
+              decoding="async" width="1731" height="909">
             <div class="card-number">02</div>
             <div class="card-info">
               <h3>Memphis</h3>
@@ -123,7 +136,8 @@
             <a href="#memphis" aria-label="Více o Memphisu">↗</a>
           </article>
           <article class="location-card card-giza" data-target="giza" tabindex="0">
-            <img class="location-image" src="images/Gíza.png" alt="Pyramidy v Gíze">
+            <img class="location-image" src="images/Gíza.png" alt="Pyramidy v Gíze" loading="lazy" decoding="async"
+              width="1672" height="941">
             <div class="card-number">03</div>
             <div class="card-info">
               <h3>Gíza</h3>
@@ -136,7 +150,8 @@
 
       <section class="location-detail detail-siwa" id="siwa" aria-labelledby="siwa-title">
         <div class="detail-image">
-          <img src="images/siwa.png" alt="Pouštní krajina v Siwě">
+          <img src="images/siwa.png" alt="Pouštní krajina v Siwě" loading="lazy" decoding="async" width="1672"
+            height="941">
           <span>01 / OÁZA</span>
         </div>
         <div class="detail-copy">
@@ -159,14 +174,16 @@
           <a class="detail-back" href="#svet">← Zpět na lokace</a>
         </div>
         <div class="detail-image">
-          <img src="images/memphis.png" alt="Starověký Memphis v Egyptě">
+          <img src="images/memphis.png" alt="Starověký Memphis v Egyptě" loading="lazy" decoding="async" width="1731"
+            height="909">
           <span>02 / CHRÁMY</span>
         </div>
       </section>
 
       <section class="location-detail detail-giza" id="giza" aria-labelledby="giza-title">
         <div class="detail-image">
-          <img src="images/Gíza.png" alt="Pyramidy v Gíze s jezdcem na velbloudu">
+          <img src="images/Gíza.png" alt="Pyramidy v Gíze s jezdcem na velbloudu" loading="lazy" decoding="async"
+            width="1672" height="941">
           <span>03 / POUŠŤ</span>
         </div>
         <div class="detail-copy">
@@ -185,11 +202,22 @@
           <p class="eyebrow">Vyber svůj osud</p>
           <h2 id="path-title">Ticho. Ocel.<br><em>Pomsta.</em></h2>
           <p class="path-intro">Tři cesty, jeden cíl. Každé rozhodnutí zanechá stopu v písku.</p>
-          <div class="path-list">
-            <div><span>01</span><strong>Průzkumník</strong><small>Ovládni každý kout krajiny.</small></div>
-            <div><span>02</span><strong>Lovec</strong><small>Útoč z dálky a beze stopy.</small></div>
-            <div><span>03</span><strong>Medžaj</strong><small>Chraň ty, kteří nemohou sami.</small></div>
+          <div class="path-list" role="group" aria-label="Herní styly">
+            <button type="button" class="path-choice is-selected" data-path="Průzkumník"
+              data-description="Ovládni každý kout krajiny a odhal tajemství, která čekají mimo hlavní cestu.">
+              <span>01</span><strong>Průzkumník</strong><small>Ovládni každý kout krajiny.</small>
+            </button>
+            <button type="button" class="path-choice" data-path="Lovec"
+              data-description="Útoč z dálky, využij okolí a zmiz dřív, než nepřítel pochopí, co se stalo.">
+              <span>02</span><strong>Lovec</strong><small>Útoč z dálky a beze stopy.</small>
+            </button>
+            <button type="button" class="path-choice" data-path="Medžaj"
+              data-description="Chraň ty, kteří nemohou sami, a postav se nebezpečí tváří v tvář.">
+              <span>03</span><strong>Medžaj</strong><small>Chraň ty, kteří nemohou sami.</small>
+            </button>
           </div>
+          <p class="path-status" aria-live="polite">Vybraná cesta: <strong>Průzkumník</strong>. Ovládni každý kout
+            krajiny a odhal tajemství, která čekají mimo hlavní cestu.</p>
         </div>
         <div class="scarab" aria-hidden="true">𓆣</div>
       </section>
@@ -198,7 +226,7 @@
     <footer class="site-footer">
       <div class="footer-intro">
         <div class="footer-brand">
-          <img src="images/logo.png" alt="Logo projektu Origins">
+          <img src="images/logo.png" alt="Logo projektu Origins" width="1232" height="1277">
           <span>ORIGINS</span>
         </div>
         <p>Fanouškovský vizuální koncept<br>HTML, CSS &amp; JavaScript</p>
@@ -214,13 +242,14 @@
           <span class="validator-icon">{ }</span>
           <span><strong>CSS</strong><small>W3C Validator</small></span>
         </a>
-        <a class="footer-tool footer-citation" href="CITACE.md" aria-label="Otevřít AI citace a zdroje">
+        <a class="footer-tool footer-citation" href="citace.html" aria-label="Otevřít AI citace a zdroje">
           <span class="validator-icon">✦</span>
           <span><strong>AI</strong><small>Citace a zdroje</small></span>
         </a>
       </section>
     </footer>
   </div>
+  <a class="back-to-top" href="#top" aria-label="Zpět nahoru">↑</a>
   <script src="script.js" defer></script>
 </body>
 
